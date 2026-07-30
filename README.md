@@ -29,3 +29,6 @@ The captured images can be annotated using Roboflow and utilized in a YOLOv8-bas
 ## Outcome
 The project demonstrates an integrated IoT solution for real-time road anomaly detection and reporting. By combining sensor-based detection with computer vision dataset preparation, the system supports smarter road infrastructure monitoring and contributes toward improved road safety and preventive maintenance.
 
+## Team
+This project was developed as part of a team during the final year of the Bachelor's program.
+
