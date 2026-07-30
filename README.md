@@ -1,5 +1,31 @@
 # Pothole-Detection-and-mitigation-system
 To design a pothole detection system using sensors to identify potential road potholes and other anomalies.
 
-Potholes have turned out to be one of the greatest risks to road safety in the modern days, and accidents have been linked to them in huge numbers, particularly when motorists cannot see the potholes and steer clear of them in time. Hence, there is a significant need for an effective mechanism to identify potholes early and to avoid such incidents.  
-In this project we have designed a hardware system with different sensors to detect the various road anomalies (Pothole, Hump and Uneven Road surface) and provides the location and a message alert when any road defects are detected. When the anomalies are detected, a picture is captured by the camera module (ESP32-CAM) which are stored in the memory card. All the images captured can be further used as the dataset for detection using YOLOv8 model. The dataset is annotated using Roboflow, exported in YOLO format, and used to train and validate the model for accurate detection.This holistic approach not only aids in real-time alerting but also goes towards building a smarter infrastructure monitoring solution that can enhance road safety and allow for preventive maintenance.
+## Overview
+The Pothole Detection and Mitigation System is an IoT-based solution designed to improve road safety by detecting road anomalies such as potholes, speed humps, and uneven road surfaces. The system uses multiple sensors to identify anomalies, records their GPS location, and captures images using an ESP32-CAM module for further analysis.
+The captured images can be annotated using Roboflow and utilized in a YOLOv8-based computer vision pipeline to support automated pothole detection and infrastructure monitoring.
+
+## Features
+- Detects potholes, speed humps, and uneven road surfaces
+- GPS-based location tracking and alert generation
+- Automatic image capture using ESP32-CAM and storage.
+- Supports dataset preparation for computer vision applications
+
+## Hardware Components
+- Arduino UNO
+- ESP32-CAM
+- ADXL345 Accelerometer
+- Ultrasonic Sensor (HC-SR04)
+- GPS Module
+- GSM(SIM800L)
+- LCD Display
+
+## Software & Tools
+- Arduino IDE
+- Roboflow
+- Google Colab
+- Python
+
+## Outcome
+The project demonstrates an integrated IoT solution for real-time road anomaly detection and reporting. By combining sensor-based detection with computer vision dataset preparation, the system supports smarter road infrastructure monitoring and contributes toward improved road safety and preventive maintenance.
+
